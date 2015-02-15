@@ -1,0 +1,10 @@
+.slide.ad {
+    background: url(images/ad.jpg);
+    width: 500%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: -1000px;
+    right: 0;
+
+}
