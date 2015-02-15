@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>Shower Presentation Engine</title>
+    <title>Markup workflow</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=792, user-scalable=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -13,22 +13,40 @@
 </head>
 <body class="list">
 <header class="caption">
-    <h1>Doing things with browser</h1>
 
-    <p>By <a href="kirjs.com">Kirill Cherkashin</a></p>
+    <h1>Markup workflow <span class="extra">, and if we have time bookmarklets and snippets</span></h1>
+
+    <p>By <a href="http://kirjs.com">Kirill Cherkashin</a></p>
 
 
 </header>
 <section class="slide cover" id="Cover">
     <div>
-        <h2>TODO</h2>
+        <h2>Markup workflow<span class="extra">, and if we have time bookmarklets and snippets</span></h2>
 
         <p>Brought to you by <a href="kirjs.com">Kirill Cherkashin</a></p>
+
         <!--
             To apply styles to the certain slides
             set slide ID to get needed elements
             -->
         <style>
+            .slide:after {
+
+                background: no-repeat #44AEE0;
+                background-size: 50px;
+                height: 35px;
+                color: white;
+                padding: 0;
+                right: 50px;
+            }
+
+            #Cover div {
+                background: url(images/kirjs.png) no-repeat #44AEE0;
+                background-size: 80px;
+
+            }
+
             #Cover h2 {
                 margin: 30px 0 0;
                 color: #FFF;
@@ -106,7 +124,7 @@
 
 <section class="slide">
     <div>
-        <h2>2. Workspaces eoae</h2>
+        <h2>2. Workspaces</h2>
         <!--
         Multiline edit
         -->
