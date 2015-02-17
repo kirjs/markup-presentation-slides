@@ -1,0 +1,41 @@
+
+.login-form {
+    border: 1px #444 dotted;
+    overflow: hidden;
+    padding: 20px;
+}
+.login-form .field {
+    display: block;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 30px;
+
+
+}
+
+.login-form input {
+    width: 500px;
+    height: 60px;
+    float: right;
+    border: 1px #565454 solid;
+    background: #BAE4EC;
+}
+
+.login-button {
+    float: right;
+
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: rgb(236, 236, 236);
+    border: 1px #918C8C solid;
+    /* height: 40px; */
+    /* line-height: 50px; */
+    display: block;
+    height: 80px;
+    margin-right: 10px;
+    width: 150px;
+}
+.slide:after {
+    display: none;
+}
+
